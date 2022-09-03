@@ -41,7 +41,7 @@ metadata:
           #serviceAccountName: backend-__serviceName__
           containers:
           - name: nginx123
-            image: vjharnessacr.azurecr.io/nginx-harness:1.23.1
+            image: vjharnessacr.azurecr.io/nginx-harness:1.23.3
             imagePullPolicy: IfNotPresent
             resources:
               requests:
